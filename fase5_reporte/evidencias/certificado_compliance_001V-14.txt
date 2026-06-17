@@ -1,0 +1,17 @@
+===================================================
+CERTIFICADO DE COMPLIANCE DE RED
+===================================================
+Cliente: Ingenieria de Sistemas SpA
+Hostname: RTR-INGSIS
+IP de Gestion: 10.1.14.1
+
+Ingeniero a cargo: ANTUAN DAVID JESUS PERALTA SEPULVEDA
+Codigo: 001V-14
+
+Resultado de Auditoria Ansible: OK (Idempotencia comprobada)
+Resultado de Auditoria NETCONF: CONFORME
+Resultado de Auditoria RESTCONF: CONFORME
+Validacion de Cambios (Genie Diff): REALIZADO
+
+ESTADO FINAL DEL EQUIPO: CONFORME
+===================================================

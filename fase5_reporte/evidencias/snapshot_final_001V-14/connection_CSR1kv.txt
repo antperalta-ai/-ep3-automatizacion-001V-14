@@ -1,0 +1,56 @@
+[2026-06-17 19:32:31,123] +++ CSR1kv logfile evidencias/snapshot_final_001V-14/connection_CSR1kv.txt +++
+[2026-06-17 19:32:31,124] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-17 19:32:31,248] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1, id: 140137462712928 +++
+[2026-06-17 19:32:31,248] connection to CSR1kv
+
+ACCESO RESTRINGIDO - INGSIS
+
+
+RTR-INGSIS#[2026-06-17 19:35:34,548] +++ CSR1kv logfile evidencias/snapshot_final_001V-14/connection_CSR1kv.txt +++
+[2026-06-17 19:35:34,548] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-17 19:35:35,059] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1, id: 140045656878096 +++
+[2026-06-17 19:35:35,059] connection to CSR1kv
+
+ACCESO RESTRINGIDO - INGSIS
+
+
+RTR-INGSIS#[2026-06-17 19:37:20,856] +++ CSR1kv logfile evidencias/snapshot_final_001V-14/connection_CSR1kv.txt +++
+[2026-06-17 19:37:20,857] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-17 19:37:21,360] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1, id: 140312012979216 +++
+[2026-06-17 19:37:21,360] connection to CSR1kv
+
+ACCESO RESTRINGIDO - INGSIS
+
+RTR-INGSIS#[2026-06-17 19:41:45,208] +++ CSR1kv logfile evidencias/snapshot_final_001V-14/connection_CSR1kv.txt +++
+[2026-06-17 19:41:45,208] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-17 19:41:45,537] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1, id: 140631469633392 +++
+[2026-06-17 19:41:45,537] connection to CSR1kv
+
+ACCESO RESTRINGIDO - INGSIS
+
+
+RTR-INGSIS#[2026-06-17 19:45:29,600] +++ CSR1kv logfile evidencias/snapshot_final_001V-14/connection_CSR1kv.txt +++
+[2026-06-17 19:45:29,600] +++ Unicon plugin iosxe +++
+Warning: Permanently added '192.168.56.101' (RSA) to the list of known hosts.
+
+[2026-06-17 19:45:29,902] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null, id: 139703086899056 +++
+[2026-06-17 19:45:29,903] connection to CSR1kv
+Password: 
+ACCESO RESTRINGIDO - INGSIS
+
+
+RTR-INGSIS#[2026-06-17 19:50:08,489] +++ CSR1kv logfile evidencias/snapshot_final_001V-14/connection_CSR1kv.txt +++
+[2026-06-17 19:50:08,489] +++ Unicon plugin iosxe +++
+Warning: Permanently added '192.168.56.101' (RSA) to the list of known hosts.
+[2026-06-17 19:50:08,786] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null, id: 140597948816400 +++
+[2026-06-17 19:50:08,786] connection to CSR1kv
+
+Password: 
+ACCESO RESTRINGIDO - INGSIS
+
+
+RTR-INGSIS#
