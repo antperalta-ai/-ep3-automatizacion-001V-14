@@ -1,0 +1,12 @@
+Iniciando auditoria RESTCONF...
+
+=== RESULTADOS DE VALIDACION RESTCONF ===
+[OK] Hostname verificado via API: RTR-INGSIS
+[OK] IP Loopback verificada via API: 10.1.14.1
+[OK] Descripcion WAN verificada via API: Enlace-WAN-Coquimbo
+[OK] Servidor NTP verificado via API: 8.8.8.8
+
+-----------------------------------------
+Total Criterios Cumplidos: 4/4
+Estado Final: CONFORME
+-----------------------------------------
