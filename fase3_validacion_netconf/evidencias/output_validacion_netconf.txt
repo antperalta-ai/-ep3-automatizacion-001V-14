@@ -1,0 +1,14 @@
+Iniciando auditoria NETCONF...
+Descargando configuracion en formato XML...
+
+=== RESULTADOS DE VALIDACION NETCONF ===
+[OK] Hostname verificado: RTR-INGSIS
+[OK] Servidor NTP verificado: 8.8.8.8
+[OK] Banner corporativo verificado
+[OK] Descripcion WAN verificada: Enlace-WAN-Coquimbo
+[OK] IP de Loopback verificada: 10.1.14.1
+
+-----------------------------------------
+Total Criterios Cumplidos: 5/5
+Estado Final: CONFORME
+-----------------------------------------
