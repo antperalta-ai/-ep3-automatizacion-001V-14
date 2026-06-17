@@ -1,0 +1,42 @@
+---
+- name: FASE 2 - Aprovisionamiento de Router CSR1kv
+  hosts: csr
+  gather_facts: no
+  vars_files:
+    - ../vars/vars_001V-14.yaml
+
+  tasks:
+    - name: 1. Respaldar configuracion actual
+      ios_config:
+        backup: yes
+        backup_options:
+          filename: backup_001V-14.cfg
+          dir_path: ./respaldo
+
+    - name: 2. Habilitar NETCONF y RESTCONF
+      ios_config:
+        lines:
+          - netconf-yang
+          - restconf
+          - ip http secure-server
+          - ip http authentication local
+
+    - name: 3. Configurar Hostname, NTP y Banner
+      ios_config:
+        lines:
+          - hostname {{ cliente.hostname }}
+          - ntp server {{ ntp_server }}
+          - banner motd ^{{ banner }}^
+
+    - name: 4. Configurar Descripcion WAN en GigabitEthernet1
+      ios_config:
+        parents: interface GigabitEthernet1
+        lines:
+          - description {{ descripcion_wan }}
+
+    - name: 5. Crear y configurar IP en Loopback14
+      ios_config:
+        parents: interface Loopback14
+        lines:
+          - description Interfaz de Gestion
+          - ip address {{ loopback_ip }} {{ loopback_mask }}

@@ -1,0 +1,21 @@
+
+PLAY [FASE 2 - Aprovisionamiento de Router CSR1kv] **************************************************
+
+TASK [1. Respaldar configuracion actual] ************************************************************
+changed: [192.168.56.101]
+
+TASK [2. Habilitar NETCONF y RESTCONF] **************************************************************
+ok: [192.168.56.101]
+
+TASK [3. Configurar Hostname, NTP y Banner] *********************************************************
+changed: [192.168.56.101]
+
+TASK [4. Configurar Descripcion WAN en GigabitEthernet1] ********************************************
+ok: [192.168.56.101]
+
+TASK [5. Crear y configurar IP en Loopback14] *******************************************************
+ok: [192.168.56.101]
+
+PLAY RECAP ******************************************************************************************
+192.168.56.101             : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
