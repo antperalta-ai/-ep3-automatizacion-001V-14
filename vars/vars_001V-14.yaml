@@ -1,0 +1,15 @@
+# vars/vars_001V-14.yaml
+codigo: "001V-14"
+nombre: "ANTUAN DAVID JESUS PERALTA SEPULVEDA"
+cliente:
+  empresa: "Ingenieria de Sistemas SpA"
+  hostname: "RTR-INGSIS"
+router:
+  ip: "192.168.56.101"
+  usuario: "cisco"
+  password: "cisco123!"
+loopback_ip: "10.1.14.1"
+loopback_mask: "255.255.255.0"
+descripcion_wan: "Enlace-WAN-Coquimbo"
+banner: "ACCESO RESTRINGIDO - INGSIS"
+ntp_server: "8.8.8.8"
